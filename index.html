@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <title>EiCell</title>
+</head>
+
+<body>
+    <header class="head">
+        <a href="#">
+            <img src="assets/icons/EicellLogo.svg" alt="EiCell" class="navicon-logo">
+        </a>
+        <input type="search" id="" placeholder="Pesquise aqui" class="search__text">
+        <input type="checkbox" id="menu" class="cb__menu">
+        <label for="menu" class="container__menu">
+            <span class="header__menu-hamburger"></span>
+        </label>
+        <div class="header__hamburger">
+            <hr />
+            <div class="initial__menu">
+                <div class="person-ico">
+                    <img src="assets/icons/personcircle.svg" alt="" class="navicon-personcircle">
+                </div>
+                <p class="menu__title">Seja bem-vindo!</p>
+                <p class="menu__text"> Entre em sua conta para ver suas compras e favoritos!</p>
+                <div class="initial">
+                    <ul class="initial-list">
+                        <li class="initial__items enter__mobile">
+                            <a href="#" class="menu__enter">Entre</a>
+                        </li>
+                        <li class="initial__items register__mobile">
+                            <a href="#" class="menu__register">Cadastre-se</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="menu-list">
+                <li class="menu-list__items">
+                    <a href="#" class="list-items">
+                        <i class="navicon-home">
+                        </i>
+                        <p class="list-text">Início</p>
+                    </a>
+                </li>
+                <li class="menu-list__items">
+                    <a href="#" class="list-items">
+                        <i class="navicon-history">
+                        </i>
+                        <p class="list-text">Histórico</p>
+                    </a>
+                </li>
+                <li class="menu-list__items">
+                    <a href="#" class="list-items">
+                        <i class="navicon-contact">
+                        </i>
+                        <p class="list-text">Contato</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu-list">
+                <li class="menu-list__items">
+                    <a href="#" class="list-items">
+                        <i class="navicon-offer"></i>
+                        <p class="list-text">Ofertas</p>
+                    </a>
+                </li>
+                <li class="menu-list__items">
+                    <a href="#" class="list-items">
+                        <i class="navicon-seller"></i>
+                        <p class="list-text">Mais vendidos</p>
+                    </a>
+                </li>
+                <li class="menu-list__items">
+                    <details>
+                        <summary class="list-items">
+                            <i class="navicon-category"></i>
+                            <p class="list-text">Categorias</p>
+                        </summary>
+                        <ul>
+                            <li class="menu-list__items">
+                                <a href="#" class="summary-link">
+                                    <p class="summary-text">Iphone</p>
+                                </a>
+                            </li>
+                            <li class="menu-list__items">
+                                <a href="#" class="summary-link">
+                                    <p class="summary-text">Samsung</p>
+                                </a>
+                            </li>
+                            <li class="menu-list__items">
+                                <a href="#" class="summary-link">
+                                    <p class="summary-text">Xiaomi</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </details>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="shpcart__link">
+            <img src="assets/icons/shop-cart.svg" alt="Carrinho" class="navicon-shoppingcart">
+        </a>
+    </header>
+    <main>
+        <section class="swiper__container">
+            <img src="assets/pictures/descontos.png" alt="" class="banner__image">
+            <!-- Slider main container -->
+            <div class="swiper slide__track">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide slide__container">
+                        <li class="slide__link">
+                            <a href="#" class="">
+                                <img src="/assets/icons/devices.svg" alt="Devices">
+                                <p>Categorias</p>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="swiper-slide slide__container">
+                        <li class="slide__link">
+                            <a href="#" class="">
+                                <img src="/assets/icons/offer.svg" alt="Offer">
+                                <p>Ofertas</p>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="swiper-slide slide__container">
+                        <li class="slide__link">
+                            <a href="#" class="">
+                                <img src="/assets/icons/adsclick.svg" alt="AdsClick">
+                                <p>Mais procurados</p>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="swiper-slide slide__container">
+                        <li class="slide__link">
+                            <a href="#" class="">
+                                <img src="/assets/icons/finance.svg" alt="Finance">
+                                <p>Mais vendidos</p>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="swiper-slide slide__container">
+                        <li class="slide__link">
+                            <a href="#" class="">
+                                <img src="/assets/icons/contribut.svg" alt="Partner">
+                                <p>Parceiros</p>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="swiper-slide slide__container">
+                        <li class="slide__link">
+                            <a href="#" class="">
+                                <img src="/assets/icons/sell.svg" alt="Seller">
+                                <p>Venda conosco!</p>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="carousel__section">
+            <h2 class="carousel__title">Ofertas</h2>
+            <!-- Slider main container -->
+            <div class="swiper swiper__container-buy">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <img src="assets/pictures/primeiracompra.png" alt="" class="banner__image">
+        <section class="carousel__section">
+            <h2 class="carousel__title">Mais procurados</h2>
+            <!-- Slider main container -->
+            <div class="swiper swiper__container-buy">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <img src="assets/pictures/chamazap.png" alt="" class="banner__image">
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>

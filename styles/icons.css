@@ -1,0 +1,43 @@
+.navicon-logo {
+    width: 64px;
+    height: 64px;
+}
+
+.navicon-personcircle {
+    width: 56px;
+    height: 56px;
+}
+
+.navicon-shoppingcart {
+    width: 24px;
+    height: 24px;
+}
+
+.navicon-home::before {
+    content: url('../assets/icons/home.svg');
+    display: inline-block;
+}
+
+.navicon-history::before {
+    content: url('../assets/icons/schedule.svg');
+    display: inline-block;
+}
+
+.navicon-contact::before {
+    content: url('../assets/icons/contact.svg');
+    display: inline-block;
+}
+
+.navicon-offer::before {
+    content: url('../assets/icons/offermenu.svg');
+}
+
+.navicon-seller::before {
+    content: url('../assets/icons/sellmenu.svg');
+    width: 24px;
+}
+
+.navicon-category::before {
+    content: url('../assets/icons/categorymenu.svg');
+    width: 24px;
+}

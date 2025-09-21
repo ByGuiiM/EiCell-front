@@ -1,0 +1,26 @@
+@import url('../styles/reset.css');
+@import url('../styles/icons.css');
+@import url('../styles/header.css');
+@import url('../styles/menu-hamburger-mobile.css');
+@import url('../styles/images.css');
+@import url('../styles/swiper-slide.css');
+@import url('../styles/carousel.css');
+
+:root {
+    --vivid-orange: #ee8e17;
+    --orange: #ed870f;
+    --yellow: #edc240;
+    --dark-yellow: #e9b41d;
+    --black: #0b0a0a;
+    --dark: #1d1c1c;
+    --white: #fcfeff;
+    --dark-gray: #474843;
+    --ash-gray: #373c37;
+    --dark-blue: #111822;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--dark-gray);
+}
+

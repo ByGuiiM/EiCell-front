@@ -1,0 +1,36 @@
+.swiper {
+    height: 116px;
+    text-align: center;
+    align-items: center;
+}
+
+.slide__track {
+    background-color: var(--dark);
+}
+
+.slide__container {
+    padding: 1em 0;
+}
+
+.swiper-slide {
+}
+
+.swiper-pagination {
+    position: initial;
+    margin-top: 0.5em;
+}
+
+.slide__link {
+    align-items: center;
+    text-align: center;
+}
+
+.slide__link p {
+    color: var(--white);
+}
+
+.swiper__container-buy {
+    background-color: var(--dark-yellow);
+    margin-bottom: 1em;
+    height: 180px;
+}
