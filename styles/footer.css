@@ -1,0 +1,29 @@
+.foot {
+    text-align: center;
+    background-color: var(--vivid-orange);
+}
+
+.foot__title {
+    font-size: 1.45em;
+    font-weight: 500;
+    border-bottom: 1px solid var(--dark);
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__list-items {
+    margin: 0.2em 1em;
+}
+
+.footer__list-items a {
+    color: var(--dark-gray);
+}
+
+.foot__text {
+    font-weight: 300;
+    background-color: var(--orange);
+}

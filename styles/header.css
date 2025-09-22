@@ -10,7 +10,7 @@
 .search__text {
     padding: 0.7em 1em;
     border-radius: 1.25em;
-    border: 1px solid;
+    border: none;
     background-color: var(--yellow);
 }
 

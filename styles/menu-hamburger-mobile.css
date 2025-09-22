@@ -67,3 +67,7 @@
     color: var(--white);
     margin-left: 0.2em;
 }
+
+.summary-link {
+    color: var(--gray);
+}

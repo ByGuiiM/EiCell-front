@@ -1,0 +1,68 @@
+.eicell__newsletter {
+    text-align: center;
+    margin: 1em;
+    padding: 2em;
+    background-color: var(--dark-yellow);
+    border-radius: 1em;
+}
+
+.newsletter__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.newsletter__text {
+    margin: 0.5em 0;
+}
+
+.newsletter__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter__email, .newsletter__button {
+    border: none;
+    background-color: var(--orange);
+}
+
+.newsletter__email {
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+}
+
+.newsletter__button {
+    padding: 0.5em;
+    border-radius: 5em;
+    font-weight: 700;
+    transition: 0.3s all;
+}
+
+.newsletter__button:hover {
+    background-color: var(--vivid-orange);
+}
+
+/**/
+
+.pay__method {
+    text-align: center;
+    margin: 1em;
+}
+
+.pmethod__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.pmethod__list-items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3em;
+    background-color: var(--dark);
+    border-radius: 0.5em;
+}
+
+.pm-list__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}

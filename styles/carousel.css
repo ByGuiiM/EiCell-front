@@ -7,3 +7,47 @@
     font-size: 1.5rem;
     font-weight: 600;
 }
+
+.slide__devices {
+}
+
+.price__list {
+    background-color: var(--white);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.price__img {
+    width: 40px;
+}
+
+.devices__title {
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: var(--dark-gray);
+    max-width: 25ch;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.device__price {
+    text-decoration: line-through;
+    font-weight: 300;
+    color: var(--gray);
+}
+
+.device__discount {
+    font-weight: 600;
+    color: var(--black);
+}
+
+.discount__text {
+    font-weight: 300;
+    color: var(--orange);
+}

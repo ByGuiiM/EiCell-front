@@ -1,5 +1,5 @@
 .swiper {
-    height: 116px;
+    height: 120px;
     text-align: center;
     align-items: center;
 }
@@ -32,5 +32,9 @@
 .swiper__container-buy {
     background-color: var(--dark-yellow);
     margin-bottom: 1em;
+    height: 180px;
+}
+
+.swiper__device {
     height: 180px;
 }
