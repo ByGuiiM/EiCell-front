@@ -3,11 +3,12 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 0.5em 0;
     background-color: var(--vivid-orange);
+    padding-top: 0.2em;
 }
 
 .search__text {
+    width: 70%;
     padding: 0.7em 1em;
     border-radius: 1.25em;
     border: none;
@@ -40,10 +41,101 @@
     z-index: 2;
 }
 
-.cb__menu {
+.cb__menu,
+.shpcart__link-text,
+.header__enter,
+.header__register,
+.pc__header,
+.logo-title {
     display: none;
 }
 
 .cb__menu:checked~.header__hamburger {
     display: block;
+}
+
+@media screen and (min-width:1024px) {
+
+    .shpcart__link-text,
+    .header__enter,
+    .header__register,
+    .logo-title {
+        display: block;
+    }
+
+    .header__menu-hamburger,
+    .menu__button,
+    .pc__items-menu,
+    .navicon-logo {
+        display: none;
+    }
+
+    .logo-title {
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: var(--logo-font);
+        color: var(--dark-gray);
+    }
+
+    .menu__button:checked~.pc__items-menu {
+        display: block;
+        width: auto;
+    }
+
+    .enter-pc,
+    .register-pc,
+    .shpcart__link-text {
+        color: var(--black);
+        font-size: 1.25rem;
+    }
+
+    .enter-pc:hover,
+    .register-pc:hover,
+    .shpcart__link-text:hover {
+        color: var(--dark-gray);
+        transition: 0.3s;
+    }
+
+    .shpcart__link {
+        display: flex;
+        align-items: center;
+        margin-right: 1em;
+    }
+
+    .pc__header {
+        display: block;
+        padding: 0.2em 1em 1em 3em;
+        align-items: center;
+    }
+
+    .pc__items-menu {
+        background-color: var(--vivid-orange);
+        position: absolute;
+        top: 100%;
+        width: 100vw;
+        padding: 1em 1.5em;
+    }
+
+    .pc__items-link {
+        margin: 1em 0;
+    }
+
+    .menu__pc {
+        display: flex;
+    }
+
+    .menu__list-pc {
+        margin: 0 2em;
+    }
+
+    .list__text-pc {
+        color: var(--black);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .list__text-pc:hover {
+        transition: 0.3s;
+        color: var(--dark-gray);
+    }
 }

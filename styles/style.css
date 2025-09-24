@@ -16,14 +16,19 @@
     --black: #0b0a0a;
     --dark: #1d1c1c;
     --white: #fcfeff;
+    --white-hover: #c2c2c2;
     --gray: #7a7a7a;
     --dark-gray: #474843;
     --ash-gray: #373c37;
-    --dark-blue: #111822;
+
+    --principal-font: "Montserrat";
+    --logo-font: "Dancing Script", cursive;
 }
 
 body {
     background-color: var(--black);
     color: var(--dark-gray);
+    font-family: var(--principal-font);
+    font-size: 16px;
+    font-weight: 400;
 }
-

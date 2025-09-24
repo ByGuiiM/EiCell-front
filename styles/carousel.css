@@ -8,9 +8,6 @@
     font-weight: 600;
 }
 
-.slide__devices {
-}
-
 .price__list {
     background-color: var(--white);
     align-items: center;
@@ -26,7 +23,6 @@
 
 .devices__title {
     font-weight: 500;
-    font-size: 1.15rem;
     color: var(--dark-gray);
     max-width: 25ch;
     display: -webkit-box;
@@ -50,4 +46,21 @@
 .discount__text {
     font-weight: 300;
     color: var(--orange);
+}
+
+.devices__title,
+.device__price,
+.device__discount,
+.discount__text {
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width:1024px) {
+
+    .devices__title,
+    .device__price,
+    .device__discount,
+    .discount__text {
+        font-size: 1.15rem;
+    }
 }

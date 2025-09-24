@@ -66,3 +66,24 @@
     font-size: 1.25rem;
     font-weight: 500;
 }
+
+.pm-list__text {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .eicell__newsletter {
+        width: 40%;
+        margin: 1em auto;
+    }
+    .pay__method {
+        width: 50%;
+    }
+    .pm-list__text {
+        display: block;
+    }
+
+    .pay__method-list {
+        text-align: initial;
+    }
+}

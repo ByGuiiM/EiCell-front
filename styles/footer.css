@@ -11,7 +11,7 @@
 
 .footer__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -21,9 +21,23 @@
 
 .footer__list-items a {
     color: var(--dark-gray);
+    font-size: 0.8rem;
+    font-weight: 500;
 }
 
 .foot__text {
     font-weight: 300;
     background-color: var(--orange);
+}
+
+@media screen and (min-width:768px) {
+    .foot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__list {
+        width: 50%;
+        margin: 0 auto 0 auto;
+    }
 }

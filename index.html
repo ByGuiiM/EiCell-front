@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -15,100 +20,151 @@
 </head>
 
 <body>
-    <header class="head">
-        <a href="#">
-            <img src="assets/icons/EicellLogo.svg" alt="EiCell" class="navicon-logo">
-        </a>
-        <input type="search" id="" placeholder="Pesquise aqui" class="search__text">
-        <input type="checkbox" id="menu" class="cb__menu">
-        <label for="menu" class="container__menu">
-            <span class="header__menu-hamburger"></span>
-        </label>
-        <div class="header__hamburger">
-            <hr />
-            <div class="initial__menu">
-                <div class="person-ico">
-                    <img src="assets/icons/personcircle.svg" alt="" class="navicon-personcircle">
+    <header>
+        <div class="head">
+            <a href="#">
+                <img src="assets/icons/EicellLogo.svg" alt="EiCell" class="navicon-logo">
+                <h1 class="logo-title">EiCell</h1>
+            </a>
+            <input type="search" id="" placeholder="Pesquise aqui" class="search__text">
+            <input type="checkbox" id="menu" class="cb__menu">
+            <label for="menu" class="container__menu">
+                <span class="header__menu-hamburger"></span>
+            </label>
+            <div class="header__hamburger">
+                <hr />
+                <div class="initial__menu">
+                    <div class="person-ico">
+                        <img src="assets/icons/personcircle.svg" alt="" class="navicon-personcircle">
+                    </div>
+                    <p class="menu__title">Seja bem-vindo!</p>
+                    <p class="menu__text"> Entre em sua conta para ver suas compras e favoritos!</p>
+                    <div class="initial">
+                        <ul class="initial-list">
+                            <li class="initial__items enter__mobile">
+                                <a href="#" class="menu__enter">Entre</a>
+                            </li>
+                            <li class="initial__items register__mobile">
+                                <a href="#" class="menu__register">Cadastre-se</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <p class="menu__title">Seja bem-vindo!</p>
-                <p class="menu__text"> Entre em sua conta para ver suas compras e favoritos!</p>
-                <div class="initial">
-                    <ul class="initial-list">
-                        <li class="initial__items enter__mobile">
-                            <a href="#" class="menu__enter">Entre</a>
-                        </li>
-                        <li class="initial__items register__mobile">
-                            <a href="#" class="menu__register">Cadastre-se</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="menu-list">
+                    <li class="menu-list__items">
+                        <a href="#" class="list-items">
+                            <i class="navicon-home">
+                            </i>
+                            <p class="list-text">Início</p>
+                        </a>
+                    </li>
+                    <li class="menu-list__items">
+                        <a href="#" class="list-items">
+                            <i class="navicon-history">
+                            </i>
+                            <p class="list-text">Histórico</p>
+                        </a>
+                    </li>
+                    <li class="menu-list__items">
+                        <a href="#" class="list-items">
+                            <i class="navicon-contact">
+                            </i>
+                            <p class="list-text">Contato</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu-list">
+                    <li class="menu-list__items">
+                        <a href="#" class="list-items">
+                            <i class="navicon-offer"></i>
+                            <p class="list-text">Ofertas</p>
+                        </a>
+                    </li>
+                    <li class="menu-list__items">
+                        <a href="#" class="list-items">
+                            <i class="navicon-seller"></i>
+                            <p class="list-text">Mais vendidos</p>
+                        </a>
+                    </li>
+                    <li class="menu-list__items">
+                        <details>
+                            <summary class="list-items">
+                                <i class="navicon-category"></i>
+                                <p class="list-text">Categorias</p>
+                            </summary>
+                            <ul>
+                                <li class="menu-list__items">
+                                    <a href="#" class="summary-link">
+                                        <p class="summary-text">Iphone</p>
+                                    </a>
+                                </li>
+                                <li class="menu-list__items">
+                                    <a href="#" class="summary-link">
+                                        <p class="summary-text">Samsung</p>
+                                    </a>
+                                </li>
+                                <li class="menu-list__items">
+                                    <a href="#" class="summary-link">
+                                        <p class="summary-text">Xiaomi</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
             </div>
-            <ul class="menu-list">
-                <li class="menu-list__items">
-                    <a href="#" class="list-items">
-                        <i class="navicon-home">
-                        </i>
-                        <p class="list-text">Início</p>
-                    </a>
-                </li>
-                <li class="menu-list__items">
-                    <a href="#" class="list-items">
-                        <i class="navicon-history">
-                        </i>
-                        <p class="list-text">Histórico</p>
-                    </a>
-                </li>
-                <li class="menu-list__items">
-                    <a href="#" class="list-items">
-                        <i class="navicon-contact">
-                        </i>
-                        <p class="list-text">Contato</p>
-                    </a>
-                </li>
-            </ul>
-            <ul class="menu-list">
-                <li class="menu-list__items">
-                    <a href="#" class="list-items">
-                        <i class="navicon-offer"></i>
-                        <p class="list-text">Ofertas</p>
-                    </a>
-                </li>
-                <li class="menu-list__items">
-                    <a href="#" class="list-items">
-                        <i class="navicon-seller"></i>
-                        <p class="list-text">Mais vendidos</p>
-                    </a>
-                </li>
-                <li class="menu-list__items">
-                    <details>
-                        <summary class="list-items">
-                            <i class="navicon-category"></i>
-                            <p class="list-text">Categorias</p>
-                        </summary>
-                        <ul>
-                            <li class="menu-list__items">
+            <a href="#" class="header__enter">
+                <p class="enter-pc">Crie sua conta</p>
+            </a>
+            <a href="#" class="header__register">
+                <p class="register-pc">Entrar</p>
+            </a>
+            <a href="#" class="shpcart__link">
+                <p class="shpcart__link-text">Carrinho</p>
+                <img src="assets/icons/shop-cart.svg" alt="Carrinho" class="navicon-shoppingcart">
+            </a>
+        </div>
+        <div class="head pc__header">
+            <ul class="menu__pc">
+                <li class="menu__list-pc">
+                    <ul>
+                        <input type="checkbox" id="pc__options" class="menu__button">
+                        <label for="pc__options" class="menu__button-pc">
+                            <li class="pc__item list__text-pc">Categorias</li>
+                        </label>
+                        <ul class="pc__items-menu">
+                            <li class="menu-list__items pc__items-link">
                                 <a href="#" class="summary-link">
                                     <p class="summary-text">Iphone</p>
                                 </a>
                             </li>
-                            <li class="menu-list__items">
+                            <li class="menu-list__items pc__items-link">
                                 <a href="#" class="summary-link">
                                     <p class="summary-text">Samsung</p>
                                 </a>
                             </li>
-                            <li class="menu-list__items">
+                            <li class="menu-list__items pc__items-link">
                                 <a href="#" class="summary-link">
                                     <p class="summary-text">Xiaomi</p>
                                 </a>
                             </li>
                         </ul>
-                    </details>
+                    </ul>
+                </li>
+                <li class="menu__list-pc">
+                    <a href="#" class="list__text-pc">Ofertas</a>
+                </li>
+                <li class="menu__list-pc">
+                    <a href="#" class="list__text-pc">Acessórios</a>
+                </li>
+                <li class="menu__list-pc">
+                    <a href="#" class="list__text-pc">Venda seu aparelho</a>
+                </li>
+                <li class="menu__list-pc">
+                    <a href="#" class="list__text-pc">Contato</a>
                 </li>
             </ul>
         </div>
-        <a href="#" class="shpcart__link">
-            <img src="assets/icons/shop-cart.svg" alt="Carrinho" class="navicon-shoppingcart">
-        </a>
     </header>
     <main>
         <section class="swiper__container">
@@ -353,7 +409,7 @@
                 <p class="newsletter__text">Receba as notícias antes de todo mundo e fique por dentro de todas as
                     ofertas e novidades!</p>
                 <li class="newsletter__list">
-                    <input type="text"  id="" class="newsletter__email" placeholder="Seu nome">
+                    <input type="text" id="" class="newsletter__email" placeholder="Seu nome">
                     <input type="email" id="" class="newsletter__email" placeholder="Seu E-mail">
                     <button class="newsletter__button">Cadastrar</button>
                 </li>
@@ -363,15 +419,30 @@
                 <ul class="pmethod__list">
                     <li class="pmethod__list-items">
                         <img src="assets/icons/pix.svg" alt="" class="method__icon">
-                        <p class="pm-list__title">Pix</p>
+                        <ul class="pay__method-list">
+                            <li class="pay__method-texts">
+                                <p class="pm-list__title">Pix</p>
+                                <p class="pm-list__text">Instantâneo, cai na hora!</p>
+                            </li>
+                        </ul>
                     </li>
                     <li class="pmethod__list-items">
                         <img src="assets/icons/creditcard.svg" alt="" class="method__icon">
-                        <p class="pm-list__title">Cartão de Crédito</p>
+                        <ul class="pay__method-list">
+                            <li class="pay__method-texts">
+                                <p class="pm-list__title">Cartão de Crédito</p>
+                                <p class="pm-list__text">Parcele em até 12x!</p>
+                            </li>
+                        </ul>
                     </li>
                     <li class="pmethod__list-items">
                         <img src="assets/icons/bank.svg" alt="" class="method__icon">
-                        <p class="pm-list__title">Boleto</p>
+                        <ul class="pay__method-list">
+                            <li class="pay__method-texts">
+                                <p class="pm-list__title">Boleto</p>
+                                <p class="pm-list__text">1 a 3 dias para o pagamento ser registrado</p>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -410,7 +481,7 @@
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
-            slidesPerView: 3,
+            slidesPerView: 4,
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
